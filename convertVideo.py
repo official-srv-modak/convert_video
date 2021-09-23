@@ -9,7 +9,7 @@ def convert(input_file_name, output_file_name):
     #print(parentDir)
 
     if(os.sep == "\\"):
-        command = """ffmpeg -hide_banner -y -i \""""+input_file_name+"""\" -crf 20 -sc_threshold 0 -g 48 -keyint_min 48 -ar 48000 -map 0:v:0 -map 0:v:0 -map 0:v:0 -map 0:a:0 -map 0:a:0 -map 0:a:0 -c:v:0 h264 -profile:v:0 main -filter:v:0 "scale=w=640:h=360:force_original_aspect_ratio=decrease" -b:v:0 800k -maxrate:v:0 856k -bufsize:v:0 1200k -c:v:1 h264 -profile:v:1 main -filter:v:1 "scale=w=842:h=480:force_original_aspect_ratio=decrease" -b:v:1 1400k -maxrate:v:1 1498k -bufsize:v:1 2100k -c:v:2 h264 -profile:v:2 main -filter:v:2 "scale=w=1280:h=720:force_original_aspect_ratio=decrease" -b:v:2 2800k -maxrate:v:2 2996k -bufsize:v:2 4200k -c:a:0 aac -b:a:0 96k -c:a:1 aac -b:a:1 128k -c:a:2 aac -b:a:2 128k -var_stream_map "v:0,a:0 v:1,a:1 v:2,a:2" -master_pl_name testvideo.m3u8 -f hls -hls_time 4 -hls_playlist_type vod -hls_list_size 0 -hls_segment_filename \""""+parentDir+os.sep+justName+os.sep+justName+"-v%v"+os.sep+justName+"""%03d.ts\" \""""+parentDir+os.sep+justName+os.sep+justName+"-v%v"+os.sep+justName+""".m3u8\""""
+        command = """ffmpeg -hide_banner -y -i \""""+input_file_name+"""\" -crf 20 -sc_threshold 0 -g 48 -keyint_min 48 -ar 48000 -map 0:v:0 -map 0:v:0 -map 0:v:0 -map 0:a:0 -map 0:a:0 -map 0:a:0 -c:v:0 h264 -profile:v:0 main -filter:v:0 "scale=w=640:h=360:force_original_aspect_ratio=decrease" -b:v:0 800k -maxrate:v:0 856k -bufsize:v:0 1200k -c:v:1 h264 -profile:v:1 main -filter:v:1 "scale=w=842:h=480:force_original_aspect_ratio=decrease" -b:v:1 1400k -maxrate:v:1 1498k -bufsize:v:1 2100k -c:v:2 h264 -profile:v:2 main -filter:v:2 "scale=w=1280:h=720:force_original_aspect_ratio=decrease" -b:v:2 2800k -maxrate:v:2 2996k -bufsize:v:2 4200k -c:a:0 aac -b:a:0 96k -c:a:1 aac -b:a:1 128k -c:a:2 aac -b:a:2 128k -var_stream_map "v:0,a:0 v:1,a:1 v:2,a:2" -master_pl_name """+justName+""".m3u8 -f hls -hls_time 4 -hls_playlist_type vod -hls_list_size 0 -hls_segment_filename \""""+parentDir+os.sep+justName+os.sep+justName+"-v%v"+os.sep+justName+"""%03d.ts\" \""""+parentDir+os.sep+justName+os.sep+justName+"-v%v"+os.sep+justName+""".m3u8\""""
 
     else:
         command = """./ffmpeg -hide_banner -y -i \""""+input_file_name+"""\" \\
@@ -22,7 +22,7 @@ def convert(input_file_name, output_file_name):
   -c:a:1 aac -b:a:1 128k \\
   -c:a:2 aac -b:a:2 128k \\
   -var_stream_map "v:0,a:0 v:1,a:1 v:2,a:2" \\
-  -master_pl_name testvideo.m3u8 \\
+  -master_pl_name """+justName+""".m3u8 \\
   -f hls -hls_time 4 -hls_playlist_type vod -hls_list_size 0 \\
   -hls_segment_filename \""""+parentDir+os.sep+justName+os.sep+justName+"-v%v"+os.sep+justName+"""%03d.ts\" \""""+parentDir+os.sep+justName+os.sep+justName+"-v%v"+os.sep+justName+""".m3u8\""""
 
