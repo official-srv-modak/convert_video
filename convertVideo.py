@@ -1,6 +1,9 @@
 import os, sys
 from pathlib import Path
 
+from past.builtins import raw_input
+
+
 def convert(input_file_name, output_file_name):
     nameWithoutExtension = output_file_name.split(".m3u8")[0]
     path = Path(input_file_name)
@@ -48,7 +51,8 @@ def start_process():
         #output_path = "video.m3u8"
         convert(file_path, output_path)
     else:
-        file_path = input("Input file path\n")
+        print("Input file path\n")
+        file_path = raw_input()
         output_path = get_output_path(file_path)
         #output_path = "video.m3u8"
         convert(file_path, output_path)

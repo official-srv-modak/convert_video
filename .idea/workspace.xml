@@ -4,7 +4,6 @@
     <list default="true" id="a26e021c-9252-4c9a-b3f3-db7572704f60" name="Changes" comment="alpha 1.0.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/convertVideo.py" beforeDir="false" afterPath="$PROJECT_DIR$/convertVideo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/New Text Document.txt" beforeDir="false" afterPath="$PROJECT_DIR$/video/New Text Document.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,13 +113,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/convertVideo.py</url>
-          <line>8</line>
+          <line>11</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/convertVideo.py</url>
-          <line>44</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
