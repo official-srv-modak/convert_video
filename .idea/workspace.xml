@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a26e021c-9252-4c9a-b3f3-db7572704f60" name="Changes" comment="beta 1.0.0" />
+    <list default="true" id="a26e021c-9252-4c9a-b3f3-db7572704f60" name="Changes" comment="beta 1.0.0">
+      <change afterPath="$PROJECT_DIR$/video/Friends_-The-Reunion_2021_English-ELSUBTITLE.COM-ST_60515091.srt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Rainy Day [short 30 sec animation]/Rainy Day [short 30 sec animation]-v0/Rainy Day [short 30 sec animation].m3u8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Rainy Day [short 30 sec animation]/Rainy Day [short 30 sec animation]-v0/Rainy Day [short 30 sec animation]000.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Rainy Day [short 30 sec animation]/Rainy Day [short 30 sec animation]-v0/Rainy Day [short 30 sec animation]001.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Rainy Day [short 30 sec animation]/Rainy Day [short 30 sec animation]-v0/Rainy Day [short 30 sec animation]002.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Rainy Day [short 30 sec animation]/Rainy Day [short 30 sec animation]-v0/Rainy Day [short 30 sec animation]003.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Rainy Day [short 30 sec animation]/Rainy Day [short 30 sec animation]-v0/Rainy Day [short 30 sec animation]004.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Rainy Day [short 30 sec animation]/Rainy Day [short 30 sec animation]-v0/Rainy Day [short 30 sec animation]005.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Rainy Day [short 30 sec animation]/Rainy Day [short 30 sec animation]-v0/Rainy Day [short 30 sec animation]006.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Rainy Day [short 30 sec animation]/Rainy Day [short 30 sec animation]-v1/Rainy Day [short 30 sec animation].m3u8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Rainy Day [short 30 sec animation]/Rainy Day [short 30 sec animation]-v1/Rainy Day [short 30 sec animation]000.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Rainy Day [short 30 sec animation]/Rainy Day [short 30 sec animation]-v1/Rainy Day [short 30 sec animation]001.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Rainy Day [short 30 sec animation]/Rainy Day [short 30 sec animation]-v1/Rainy Day [short 30 sec animation]002.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Rainy Day [short 30 sec animation]/Rainy Day [short 30 sec animation]-v1/Rainy Day [short 30 sec animation]003.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Rainy Day [short 30 sec animation]/Rainy Day [short 30 sec animation]-v1/Rainy Day [short 30 sec animation]004.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Rainy Day [short 30 sec animation]/Rainy Day [short 30 sec animation]-v1/Rainy Day [short 30 sec animation]005.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Rainy Day [short 30 sec animation]/Rainy Day [short 30 sec animation]-v1/Rainy Day [short 30 sec animation]006.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Rainy Day [short 30 sec animation]/Rainy Day [short 30 sec animation]-v2/Rainy Day [short 30 sec animation].m3u8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Rainy Day [short 30 sec animation]/Rainy Day [short 30 sec animation]-v2/Rainy Day [short 30 sec animation]000.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Rainy Day [short 30 sec animation]/Rainy Day [short 30 sec animation]-v2/Rainy Day [short 30 sec animation]001.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Rainy Day [short 30 sec animation]/Rainy Day [short 30 sec animation]-v2/Rainy Day [short 30 sec animation]002.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Rainy Day [short 30 sec animation]/Rainy Day [short 30 sec animation]-v2/Rainy Day [short 30 sec animation]003.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Rainy Day [short 30 sec animation]/Rainy Day [short 30 sec animation]-v2/Rainy Day [short 30 sec animation]004.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Rainy Day [short 30 sec animation]/Rainy Day [short 30 sec animation]-v2/Rainy Day [short 30 sec animation]005.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Rainy Day [short 30 sec animation]/Rainy Day [short 30 sec animation]-v2/Rainy Day [short 30 sec animation]006.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Rainy Day [short 30 sec animation]/Rainy Day [short 30 sec animation].m3u8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/convertVideo.py" beforeDir="false" afterPath="$PROJECT_DIR$/convertVideo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video/New Text Document.txt" beforeDir="false" afterPath="$PROJECT_DIR$/video/New Text Document.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632377301055</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="beta 1.0.0">
+      <created>1632381918803</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1632381918803</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
