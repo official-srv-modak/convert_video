@@ -28,6 +28,7 @@ def convert(input_file_name, output_file_name):
 
     #command = ""
     os.system(command)
+    os.system("pause")
 
 def removeSpaces(path):
     path = path.replace(" ", "%20")
